@@ -247,3 +247,7 @@ a{
     }
 
 }
+
+.social {
+    filter: invert(100%);
+}
