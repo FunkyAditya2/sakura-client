@@ -250,4 +250,5 @@ a{
 
 .icon-social {
     filter: invert(100%);
+    margin-left: 4vh;
 }
