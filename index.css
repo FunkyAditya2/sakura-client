@@ -248,7 +248,13 @@ a{
 
 }
 
-.social {
+body {
+    margin: 0;
+    padding: 0;
+    background: #262626;
+  }
+  
+  .social {
     display: flex;
     position: absolute;
     top: 50%;
@@ -256,11 +262,11 @@ a{
     transform: translate(-50%, -50%);
   }
   
-.social .social-li {
+  .social-li {
     list-style: none;
   }
   
-  .social .social-li .social-a {
+  .social-a {
     width: 80px;
     height: 80px;
     background-color: #fff;
@@ -276,19 +282,19 @@ a{
     z-index: 1;
   }
   
-  .social .social-li .social-a .icon {
+  .social-a .icon {
     position: relative;
     color: #262626;
     transition: .5s;
     z-index: 3;
   }
   
-  .social .social-li .social-a:hover .icon {
+  .social-a:hover .icon {
     color: #fff;
     transform: rotateY(360deg);
   }
   
-  .social .social-li .social-a:before {
+  .social-a:before {
     content: "";
     position: absolute;
     top: 100%;
@@ -300,22 +306,23 @@ a{
     z-index: 2;
   }
   
-  .social .social-li .social-a:hover:before {
+  .social-a:hover:before {
     top: 0;
   }
   
-  .social .social-li:nth-child(1) a:before{
+  .social-li:nth-child(1) .social-a:before {
     background: #3b5999;
   }
   
-  .social .social-li:nth-child(2) a:before{
+  .social-li:nth-child(2) .social-a:before {
     background: #55acee;
   }
   
-  .social .social-li:nth-child(3) a:before {
+  .social-li:nth-child(3) .social-a:before {
     background: #0077b5;
   }
   
-  .social .social-li:nth-child(4) a:before {
+  .social-li:nth-child(4) .social-a:before {
     background: #dd4b39;
   }
+  
