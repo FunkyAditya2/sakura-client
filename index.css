@@ -248,10 +248,10 @@ a{
 
 }
 
-body {
+.social-div {
     margin: 0;
     padding: 0;
-    background: #262626;
+    background: #000000;
   }
   
   .social {
